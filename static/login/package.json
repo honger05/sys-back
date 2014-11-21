@@ -1,0 +1,12 @@
+{
+    "name": "login",
+    "family": "sys-back",
+    "version": "1.0.0",
+    "description": "登陆模块",
+    "spm": {
+      "alias": {
+        "$": "$"
+      },
+      "output": ["login.css","*.png","*.jpg"]
+    }
+}

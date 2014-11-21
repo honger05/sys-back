@@ -1,0 +1,12 @@
+{
+    "name": "system",
+    "family": "sys-back",
+    "version": "1.0.0",
+    "description": "系统主模块",
+    "spm": {
+      "alias": {
+        "$": "$"
+      },
+      "output": ["system.js","system.css","*.jpg","*.gif"]
+    }
+}
