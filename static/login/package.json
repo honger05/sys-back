@@ -7,6 +7,6 @@
       "alias": {
         "$": "$"
       },
-      "output": ["login.css","*.png","*.jpg"]
+      "output": ["login.js","login.css","*.png","*.jpg"]
     }
 }
