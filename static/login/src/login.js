@@ -3,7 +3,7 @@ define(function(require){
   var $ = require("jquery");
   require("easing");
 
-  $(".login-box").animate({
+  $(".login-box").show().animate({
     opacity:'0.9',
     width:'500px',
     height:'330px'
