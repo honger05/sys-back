@@ -12,23 +12,46 @@
     <div class="sys-header">
       <i class="icon-camera-retro icon-2x"></i>
       <h1>TZKT</h1>
-      <div class="sys-header-right">
-        <a class="btn" id="sysUser"><i class="icon-user icon-2x"></i></a>
-        <a class="btn" id="sysCogs"><i class="icon-cogs icon-2x"></i></a>
-        <a class="btn" id="sysSignOut"><i class="icon-signout icon-2x"></i></a>
-      </div>
+      <ul class="header-right-ul">
+        <li class="mt6"><i class="icon-user icon-2x"></i> : admin</li>
+        <li class="mt6"><i class="icon-time icon-2x"></i> : 2014.12.12</li>
+        <li><a class="btn" id="sysSignOut"><i class="icon-signout icon-2x"></i></a></li>
+      </ul>
     </div>
     <div class="sys-body">
       <div class="sys-left-bar1">
         <ul class="left-bar1-ul">
-          <li><a class="btn"><i class="icon-comment icon-3x"></i></a></li>
-          <li><a class="btn"><i class="icon-th-large icon-3x"></i></a></li>
-          <li><a class="btn"><i class="icon-heart icon-3x"></i></a></li>
+          <li class="bar1-active"><a class="btn" id="sysComments"><i class="icon-comments icon-2x"></i></a></li>
+          <li><a class="btn" id="sysSetting"><i class="icon-cogs icon-2x"></i></a></li>
+          <li><a class="btn" id="sysOther"><i class="icon-th-large icon-2x"></i></a></li>
         </ul>
-        <p class="abs-bottom"><a class="btn"><i class="icon-circle-arrow-left icon-3x"></i></a></p>
+        <p class="abs-bottom"><a class="btn"><i class="icon-circle-arrow-left icon-2x" id="switchBarBtn"></i></a></p>
       </div>
       <div class="sys-left-bar2">
+        <div class="comments-bar bar2">
+          <div class="nav-title">
+            <h4>业务模块 / Business Module</h4>
+          </div>
+          <div class="nav-content">
 
+          </div>
+        </div>
+        <div class="setting-bar bar2 hides">
+          <div class="nav-title">
+            <h4>系统设置 / System Setting</h4>
+          </div>
+          <div class="nav-content">
+
+          </div>
+        </div>
+        <div class="other-bar bar2 hides">
+          <div class="nav-title">
+            <h4> 其它 / Other </h4>
+          </div>
+          <div class="nav-content">
+
+          </div>
+        </div>
       </div>
       <div class="sys-main-info">
 

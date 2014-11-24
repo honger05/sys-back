@@ -31,7 +31,7 @@ legend, input, textarea, p, blockquote, th, td {
 }
 
 /* common */
-.hide {
+.hides {
   display: none;
 }
 .abs-bottom {
@@ -39,6 +39,9 @@ legend, input, textarea, p, blockquote, th, td {
   bottom: 30px;
   width: 100%;
   text-align: center;
+}
+.mt6 {
+  margin-top: 6px;
 }
 
 /* system */
@@ -54,21 +57,21 @@ legend, input, textarea, p, blockquote, th, td {
   top: 0;bottom: 0;left: 0;right: 0;
 }
 .sys-header {
-  padding: 15px 40px;
-  background: #315A7A;
+  width: 100%;
+  padding: 10px 40px;
+  background: #0F4B7A;
   color: #ffffff;
 }
 .sys-body {
   width: 100%;
-  height: 86%;
+  height: 87.3%;
   background: #f5f5f5;
+  overflow: hidden;
 }
 .sys-footer {
-  width: 98%;
-  padding: 5px 0;
-  position: fixed;
-  bottom: 7px;
-  background: #315A7A;
+  width: 100%;
+  padding: 2px 0;
+  background: #0F4B7A;
   text-align: center;
   color: #ffffff;
 }
@@ -78,24 +81,30 @@ legend, input, textarea, p, blockquote, th, td {
   display: inline-block;
   text-indent: .3em;
 }
-.sys-header-right {
+.header-right-ul {
   float: right;
+}
+.header-right-ul li {
+  float: left;
+  padding: 0 20px;
 }
 
 /*left-bar*/
 .sys-left-bar1 {
   position: relative;
   float: left;
-  width: 5%;
+  width: 3%;
   height: 100%;
-  min-width: 70px;
+  min-width: 55px;
   background: #076683;
 }
 .sys-left-bar2 {
   float: left;
-  width: 13%;
+  width: 17%;
   height: 100%;
   background: #cccccc;
+  white-space: nowrap;
+  min-width: 260px;
 }
 .sys-main-info {
   float: left;
@@ -103,11 +112,24 @@ legend, input, textarea, p, blockquote, th, td {
   height: 100%;
 }
 .left-bar1-ul {
-  margin-top: 20px;
+  margin-top: 80px;
   text-align: center;
 }
 .left-bar1-ul li {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
-
+/* bar2 */
+.bar2 {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+}
+.bar1-active {
+  background: #ccc;
+  color: #000000;
+}
+.nav-title {
+  padding: 30px 15px 10px 15px;
+  border-bottom: 1px solid #cccccc;
+}
